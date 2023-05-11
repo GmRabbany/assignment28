@@ -1,0 +1,210 @@
+
+.my-btn{
+    background-color: #8490ff !important;
+    color: white;
+}
+.my-btn2{
+    outline: 1px solid #8490ff;
+    color: #8490ff;
+    background-color: #fff;
+}
+
+.my-btn2:hover{
+    background-color: #8490ff;
+    color: #fff;
+}
+.banner{
+    background-color: #f9f9ff;
+}
+
+.d-bg{
+    background-color: #8490ff;
+}
+.p-rltv{
+    position: relative;
+}
+.card-item-numbuer{
+   width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 10px 150px;
+    /* position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0; */
+}
+
+.team{
+    padding: 150px 0 50px 0;
+}
+.team .card{
+    position: relative;
+}
+.team .card .card-img-top{
+    position: absolute;
+    top: -21%;
+    left: -29%;
+}
+
+.team .card img{
+    width: 33%;
+}
+
+
+
+
+/* ==================
+responsive css
+==================== */
+@media all and (min-width: 766px) and (max-width: 1400px) {
+
+
+    a.nav-link.px-4.text-secondary {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+    p.card-text.text-muted.mb-4.h4 {
+        font-size: 16px;
+    }
+
+    a.btn.my-btn2.btn-lg.m-5.shadow {
+        padding: 4px 5px;
+        margin: 20px !important;
+        font-size: 18px;
+    }
+    
+    .col-lg-12.text-center.py-1 p {
+        margin: 40px 0 !important;
+    }
+
+}
+
+
+
+@media all and (max-width: 992px) {
+
+    .container{
+
+    }
+    .banner h3{
+        /* margin-top: 50px; */
+    }
+
+    .banner .col-lg-6.col-md-6.my-auto {
+    margin-top: 80px !important;
+    }
+
+        .banner .col-lg-6.col-md-6 img {
+        width: 107%;
+    }
+        .about a.btn.btn-lg.text-white.my-btn {
+        font-size: 17px;
+        font-weight: 400;
+        padding: 5px 10px;
+        margin-top: -30px;
+    }
+
+        .about img.img-thumbnail {
+        height: 100%;
+        /* width: 100%; */
+    }
+
+    .col-lg-12.text-center.py-1 p {
+        margin: 40px 0 !important;
+    }
+
+
+        .details .row.py-5 {
+        padding: 25px 0 !important;
+    }
+        .details .col-lg-3.col-md-3.p-5.my-auto.h-100.text-white.text-center {
+        padding: 10px !important;
+    }
+
+        .details .col-lg-3.col-md-3.p-5.my-auto.h-100.text-white.text-center h1 {
+        font-size: 28px;
+    }
+        .details .col-lg-3.col-md-3.p-5.my-auto.h-100.text-white.text-center h5 {
+        font-size: 18px;
+    }
+
+    .team {
+        padding: 70px 0 40px 0;
+    }
+
+
+        .team .col-lg-3.col-md-6 {
+        margin-bottom: 40px;
+    }
+
+.team .card .card-img-top {
+    position: absolute;
+    top: 0%;
+    left: -33%;
+}
+
+.team .card img {
+    width: 34%;
+    border-radius: 0% 50% 50% 0;
+}
+.team .card-body.py-5 {
+    margin: 11px -2px 0 70px;
+    padding: 18px 22px !important;
+    
+}
+
+
+
+}
+
+@media all and (max-width: 767px) {
+
+    .about .col-lg-6.col-md-6.my-auto {
+        margin-top: 40px !important;
+    }
+
+    .col-lg-12.text-center.py-1 p {
+        margin: 40px 0 !important;
+    }
+
+    .details .col-lg-3.col-md-3.p-5.my-auto.h-100.text-white.text-center {
+        padding: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .pricing p.card-text.text-muted.mb-4.h4 {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 576px) {
+
+    .banner .col-lg-6.col-md-6.my-auto {
+        margin-top: 40px !important;
+    }
+
+    .col-lg-12.text-center.py-1 .h1 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .col-lg-12.text-center.py-1 p {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 30px 0 !important;
+    }
+    .team .card-body.py-5 {
+        padding: 18px 22px !important;
+        margin: 0rem 0rem 0rem 10rem;
+    }
+
+
+
+    
+}
+
+
+
+
+

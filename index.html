@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+<!-- google font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<!-- main css -->
+<link rel="stylesheet" href="style.css">
+
+<title>class 22</title>
+
+<style>
+  body, h1, h2, h3, h4, h5, p, div{
+    font-family: 'Karla', sans-serif;
+  }
+</style>
+
+</head>
+<body>
+
+
+    <section class="sticky-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container ">
+              <div class="row">
+                <!-- <div class="col-lg-2 col-md-5"> -->
+                  <a class="navbar-brand" href="#">
+                    <img class="w-50" src="https://i.ibb.co/7KyPx8d/logo.jpg" alt="">
+                  </a>
+                </div>
+                
+                <!-- <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-9 col-md-6"> -->
+
+                  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active px-4 text-dark" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link px-4 text-secondary" href="#">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link px-4 text-secondary" href="#">Services</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link px-4  dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog
+                        </a>
+                        <ul class="dropdown-menu px-4 text-secondary">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link px-4 text-secondary" href="#">Portofolio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link px-4 dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu px-4">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link px-4 text-secondary" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+
+
+
+
+                 
+                  </div>
+                </div>
+              </div>
+
+
+             
+
+
+
+            </div>
+          </nav>
+
+
+          
+    </section>
+
+
+    <!-- banner section -->
+
+    <section>
+        <div class="banner">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 my-auto">
+                <h3 class="mb-3">This is Me</h3>
+                <h1 class="mb-3">phill Robert</h1>
+                <p class="mb-4 pr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos magni ratione expedita doloremque obcaecati hic. Inventore praesentium, possimus a nihil fugit sit adipisci, quia, in architecto eius mollitia quibusdam odit.</p>
+                <a class="btn my-btn " href="">Discover Now</a>
+
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <img src="https://i.ibb.co/XbjZHHL/hero-img.webp" alt="">
+              </div>
+            </div>
+          </div>
+         
+        </div>
+    </section>
+
+
+    <!-- about section -->
+
+    <section class="about py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <img class="img-thumbnail" src="https://i.ibb.co/q0WJgbD/about-img.webp" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6 my-auto">
+            <h5 class="mb-3">About Me</h5>
+            <h2 class="mb-4">Personal Details</h2>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis eos modi fugit quis vero blanditiis maiores itaque laudantium quae corporis amet sequi delectus unde, voluptatibus adipisci porro laboriosam! Tempora.
+            </p>
+
+            <a class="btn btn-lg text-white my-btn" href="#">View Deails</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- details section -->
+
+    <section class="details d-bg">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-3 col-md-3 col-sm-6 p-5 my-auto h-100 text-white text-center font-weight-bolder">
+            <h1>100+</h1>
+            <h5>Happy clients</h5>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 p-5 my-auto h-100 text-white text-center">
+            <h1>50+</h1>
+            <h5>Health Programs</h5>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 p-5 my-auto h-100 text-white text-center">
+            <h1>300+</h1>
+            <h5>Project Comleted</h5>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 p-5 my-auto h-100 text-white text-center">
+            <h1>80+</h1>
+            <h5>Health Programs</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- pricing section -->
+
+    <section class="pricing banner py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center py-1">
+              <div class="h1 mb-3">Start Using Our App Today</div>
+              <p class="my-2 h5">Being active Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             
+                .<div class="card border-0 text-center shadow-lg">
+
+                  <div class="card-item-numbuer rounded-circle bg-light">01</div>
+                  <div class="card-body">
+                    <h4 class="card-title">Economy</h4>
+                    <h6 class="card-subtitle text-muted">For The Individuls</h6>
+                  </div>
+                 
+                  <div class="card-body">
+                
+                      <p class="card-text text-muted mb-4  h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sip</p>
+                    
+                      <a class="btn my-btn2 btn-lg m-5 shadow" href="#">Buy Now</a>
+                    
+                  </div>
+
+                </div>
+              </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             
+                .<div class="card border-0 text-center shadow-lg">
+
+                  <div class="card-item-numbuer rounded-circle bg-light">02</div>
+                  <div class="card-body">
+                    <h4 class="card-title">Economy</h4>
+                    <h6 class="card-subtitle text-muted">For The Individuls</h6>
+                  </div>
+                 
+                  <div class="card-body">
+                
+                      <p class="card-text text-muted mb-4  h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sip</p>
+                    
+                      <a class="btn my-btn2 btn-lg m-5 shadow" href="#">Buy Now</a>
+                    
+                  </div>
+
+                </div>
+              </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             
+                .<div class="card border-0 text-center shadow-lg">
+
+                  <div class="card-item-numbuer rounded-circle bg-light">02</div>
+                  <div class="card-body">
+                    <h4 class="card-title">Economy</h4>
+                    <h6 class="card-subtitle text-muted">For The Individuls</h6>
+                  </div>
+                 
+                  <div class="card-body">
+                
+                      <p class="card-text text-muted mb-4  h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sip</p>
+                    
+                      <a class="btn my-btn2 btn-lg m-5 shadow" href="#">Buy Now</a>
+                    
+                  </div>
+
+                </div>
+              </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             
+                .<div class="card border-0 text-center shadow-lg">
+
+                  <div class="card-item-numbuer rounded-circle bg-light">03</div>
+                  <div class="card-body">
+                    <h4 class="card-title">Economy</h4>
+                    <h6 class="card-subtitle text-muted">For The Individuls</h6>
+                  </div>
+                 
+                  <div class="card-body">
+                
+                      <p class="card-text text-muted mb-4  h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sit.</p>
+                      <p class="card-text text-muted mb-4 h4">Lorem ipsum dolor sip</p>
+                    
+                      <a class="btn my-btn2 btn-lg m-5 shadow" href="#">Buy Now</a>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- team section -->
+
+    <section class=" team">
+
+      <div class="container">
+        <div class="row">
+       
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 shadow text-center">
+              <div class="card-img-top">
+                <img class="" src="https://i.ibb.co/pWSJvJM/face1.jpg" alt="">
+              </div>
+              <div class="card-body py-5">
+                <h4 class="card-title mb-2">John doe</h4>
+                <h6 class="card-subtitle mb-4">Programmar</h6>
+                <p class="card-text mb-4">Lorem,  earum voluptates obcaecati modi aliquam nobis.</p>
+
+                <a  class="btn btn-white shadow mb-2 bg-light font-weight-bold" href="#">Website</a>
+              </div>
+              
+            
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 shadow text-center">
+              <div class="card-img-top">
+                <img class="" src="https://i.ibb.co/pWSJvJM/face1.jpg" alt="">
+              </div>
+              <div class="card-body py-5">
+                <h4 class="card-title mb-2">John doe</h4>
+                <h6 class="card-subtitle mb-4">Programmar</h6>
+                <p class="card-text mb-4">Lorem,  earum voluptates obcaecati modi aliquam nobis.</p>
+
+                <a  class="btn btn-white shadow mb-2 bg-light font-weight-bold" href="#">Website</a>
+              </div>
+              
+            
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 shadow text-center">
+              <div class="card-img-top">
+                <img class="" src="https://i.ibb.co/pWSJvJM/face1.jpg" alt="">
+              </div>
+              <div class="card-body py-5">
+                <h4 class="card-title mb-2">John doe</h4>
+                <h6 class="card-subtitle mb-4">Programmar</h6>
+                <p class="card-text mb-4">Lorem,  earum voluptates obcaecati modi aliquam nobis.</p>
+
+                <a  class="btn btn-white shadow mb-2 bg-light font-weight-bold" href="#">Website</a>
+              </div>
+              
+            
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card border-0 shadow text-center">
+              <div class="card-img-top">
+                <img class="" src="https://i.ibb.co/pWSJvJM/face1.jpg" alt="">
+              </div>
+              <div class="card-body py-5">
+                <h4 class="card-title mb-2">John doe</h4>
+                <h6 class="card-subtitle mb-4">Programmar</h6>
+                <p class="card-text mb-4">Lorem,  earum voluptates obcaecati modi aliquam nobis.</p>
+
+                <a  class="btn btn-white shadow mb-2 bg-light font-weight-bold" href="#">Website</a>
+              </div>
+              
+            
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- contact section -->
+
+    <section class="py-4 banner">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-12 text-center py-1">
+            <p class="my-3 h5">We Need to Know Your Opinion</p>
+            <div class="h1">Write to Us and We Will Contact you</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card shadow-lg text-center border-0">
+        
+              <div class="card-body">
+                <h4 class="card-title font-weight-bolder my-5">Send Us A Massage</h4>
+
+                <form action="#">
+
+                  <input type="email" class="form-control form-control-lg mb-3 " placeholder="E-mail Address">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" placeholder="Name" class="form-control form-control-lg mb-3">
+            
+                    </div>
+                    <div class="col">
+                      <input type="tel" placeholder="Your Phone" class="form-control form-control-lg mb-3">
+                    </div>
+                  </div>
+                  <textarea class="form-control" placeholder="Massage" name="" id="" cols="10" rows="5"></textarea>
+
+                  <button type="submit" class="btn btn-info btn-lg my-4 text-white">Submit</button>
+
+
+                </form>
+
+              
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5">
+
+            <div class="get font-weight-bold m-5">
+              <h3 class="my-3">Get In Touch</h3>
+              <p class="mb-3 text-secondary">Phone Number: +200000000000000</p>
+              <p class="mb-3 text-secondary">Email: name@email.com</p>
+              <p class="mb-3 text-secondary">Address: Comilla</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="bg-dark ">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 text-center text-white py-3">
+          <h6>&copy; 2023 All Rights Reserved| Designed by GM.</h6>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>
